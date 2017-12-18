@@ -3,6 +3,7 @@
  */
 //加载http模板，用来创建HTTP服务器
 var http=require('http');
+console.log(http);
 
 //创建一个HTTP服务器
 var server=http.createServer((request,response)=>{
